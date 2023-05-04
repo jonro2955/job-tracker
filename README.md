@@ -30,14 +30,18 @@ This is a personal project which I created to learn and apply full stack web dev
 
 ### 2. Set up Auth0:
 
-Auth0 is a cloud based authentication SDK. The Job Tracker app dependes on it to authenticate users using email or Google open authentication protocols. In order to run the Job Tracker app, you need to follow the instruction on the following link to create an account and register your application:  
-https://auth0.com/docs/libraries/auth0-single-page-app-sdk. Then you need to edit the job-tracker-client/src/utils/authConfig.js file with the Client ID abtained from your Auth0 app registration.
+Auth0 is a cloud based authentication SDK. The Job Tracker app dependes on it to authenticate users using email or Google open authentication protocols. 
+
+In order to run the Job Tracker app, you need to follow the instruction on the following link to create an account and register your application:  
+https://auth0.com/docs/libraries/auth0-single-page-app-sdk. 
+
+Then you need to edit the job-tracker-client/src/utils/authConfig.js file with the Client ID abtained from your Auth0 app registration.
 
 ### 3. Start the apps:
 
 Download or git-clone the project files to your local system.
 
-CD into both the client and server directories in separate terminal windows
+CD into both the client and server directories in separate terminal windows.
 
 In each window, install the dependencies, then run the applications.
 
