@@ -4,18 +4,6 @@ Job Tracker is a full-stack PostgreSQL/Express/React/Node (PERN) application tha
 
 This is a personal project which I created to learn and apply full stack web development technologies while building something that could be useful in my day to day life.
 
-## Tools Used:
-
-<ul>
-<li>Create-React-App</li>
-<li>PostgreSQL</li>
-<li>Express Server</li>
-<li>Node.js</li>
-<li>Auth0 SDK</li>
-<li>Bootstrap</li>
-<li>NPM</li>
-</ul>
-
 ## How to run this app locally:
 
 ### 1. Set up PSQL locally:
@@ -30,10 +18,10 @@ This is a personal project which I created to learn and apply full stack web dev
 
 ### 2. Set up Auth0:
 
-Auth0 is a cloud based authentication SDK that makes it easy for developers to authenticate users using email or Google open authentication protocols. 
+Auth0 is a cloud based authentication SDK that makes it easy for developers to authenticate users using email or Google open authentication protocols.
 
 In order to run the Job Tracker app, you need to follow the instruction on the following link to create an account and register your application:  
-https://auth0.com/docs/libraries/auth0-single-page-app-sdk. 
+https://auth0.com/docs/libraries/auth0-single-page-app-sdk.
 
 Then you need to edit the job-tracker-client/src/utils/authConfig.js file with the Client ID abtained from your Auth0 app registration.
 
@@ -50,11 +38,23 @@ In each window, install the dependencies, then run the applications.
 `cd job-tracker-server`  
 `npm install`  
 `npm start`  
-(runs server at localhost:5000)  
+(runs server at localhost:5000)
 
 #### 2nd window
 
 `cd job-tracker-client`  
 `npm install`  
 `npm start`  
-(runs react app at localhost:3000)  
+(runs react app at localhost:3000)
+
+## Tools Used:
+
+<ul>
+<li>Create-React-App</li>
+<li>PostgreSQL</li>
+<li>Express Server</li>
+<li>Node.js</li>
+<li>Auth0 SDK</li>
+<li>Bootstrap</li>
+<li>NPM</li>
+</ul>
