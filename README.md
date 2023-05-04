@@ -47,14 +47,14 @@ In each window, install the dependencies, then run the applications.
 
 #### 1st window
 
-`cd job-tracker-server`
-`npm install`
-`npm start`
-(runs server at localhost:5000)
+`cd job-tracker-server`  
+`npm install`  
+`npm start`  
+(runs server at localhost:5000)  
 
 #### 2nd window
 
-`cd job-tracker-client`
-`npm install`
-`npm start`
-(runs react app at localhost:3000)
+`cd job-tracker-client`  
+`npm install`  
+`npm start`  
+(runs react app at localhost:3000)  
