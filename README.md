@@ -18,7 +18,7 @@ This is a personal project which I created to learn and apply full stack web dev
 
 ## How to run this app locally:
 
-### 1. Set up PSQL locally
+### 1. Set up PSQL locally:
 
 <ol>
   <li>Install PSQL on your local computer. For full intructions on installing the PSQL database, visit the offical PSQL website: https://www.postgresql.org/</li>
